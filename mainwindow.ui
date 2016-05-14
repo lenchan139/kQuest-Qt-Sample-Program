@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>kQuest of Yu-Gi-Oh</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="txtQ1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.1: Can Draw a card when you go first?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ1A">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Yes</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ1B">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>No</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="txtQ2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>301</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.2: Which is correct ATK of Red Gadget?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ2A">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1200</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_2</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ2B">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1300</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_2</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="raoQ2C">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1400</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_2</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ2D">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>61</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1500</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_2</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ1C">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Not Sure.</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="lblResult">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>410</y>
+      <width>281</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>THIS LABEL WILL SHOW THE RESULT.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnResult">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>380</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Confirm!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblQ2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>351</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.2: Which monster is  not XYZ monster on the below?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ3A">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>171</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Moonlight Rose Dragon</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_3</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ3B_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>90</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Glow-Up Bulb</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_3</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ3D">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>110</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Traprix Rafflesia</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_3</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ3C">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gear Gigant X</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_3</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>70</y>
+      <width>281</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.4: Which card can heal 1200LP for yourself?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ4A">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>90</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Upstart Goblin</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_4</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ4C">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>110</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rain of Mercy</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_4</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ4B">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>90</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Poison of the old man</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_4</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ4D">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>110</y>
+      <width>171</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Emergency Provisions</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_4</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="txtQ5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>351</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.5: Which card can active effect in opponent's turn?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ5B">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>180</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chicken Game</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_5</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ5A">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>The Shallow Grave</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_5</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ5D">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>200</y>
+      <width>105</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Silent Sword</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_5</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ5C">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>105</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Void Dream</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_5</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="txtQ6a">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>150</y>
+      <width>291</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.6: Which card can Spec Summon D/D/D </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtQ6b">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>160</y>
+      <width>231</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>except D/D monster？</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ6A">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>180</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D/D Necro Slime</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_6</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ6C">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>200</y>
+      <width>221</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D/D/D Dragon King Pendragon</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_6</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ6B">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>180</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D/D Savant Thomas</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_6</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="txtQ7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>371</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.7: Which Card cannot Spec Summon the Fusion Monter?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ7A">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>The eyes of Timaeus</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_7</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="tdoQ7B">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>260</y>
+      <width>105</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dark Calling</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_7</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ7C">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Instant Fusion</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_7</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ7D">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>280</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dimension Fusion</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_7</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="txtQ8">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>230</y>
+      <width>281</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.8: Which monster cannot destroy by battle?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ8A">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>260</y>
+      <width>105</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Yubel</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_8</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ8B">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>260</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Genex Ally Birdman</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_8</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ8C">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>280</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dark Magician</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_8</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ8D">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>280</y>
+      <width>105</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Necro Linker</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_8</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>651</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q.9: Your Field have Nettles and Mokey Mokey and  your hand have Junk Synchron. Which  highest level </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>631</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Synchro monster that you can Special Summon? (Assume your extra deck have any Monsters you need)</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ9A">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>350</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Junk Destroyer</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_9</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ9B">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>350</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Startdust Warrior</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_9</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ9C">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>350</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Shooting Quasar Dragon</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_9</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="rdoQ9D">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>350</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Starform Dragon</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_9</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>684</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuABOUT">
+    <property name="title">
+     <string>ABOUT</string>
+    </property>
+    <addaction name="actionABOUT_THIS_APP"/>
+   </widget>
+   <addaction name="menuABOUT"/>
+  </widget>
+  <action name="actionABOUT_THIS_APP">
+   <property name="text">
+    <string>About kQuest</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_3"/>
+  <buttongroup name="buttonGroup_4"/>
+  <buttongroup name="buttonGroup_5"/>
+  <buttongroup name="buttonGroup_6"/>
+  <buttongroup name="buttonGroup_7"/>
+  <buttongroup name="buttonGroup_8"/>
+  <buttongroup name="buttonGroup_9"/>
+ </buttongroups>
+</ui>
